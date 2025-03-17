@@ -14,8 +14,8 @@ DUMP_CHANNEL = int(os.getenv("DUMP_CHANNEL", "-1002428562251"))
 DB_URI = os.getenv("DB_URI", "mongodb+srv://mrnoobx:DAZCdTczVWyECi04@cluster0.sedgwxy.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.getenv("DB_NAME", "instalaoder")
 
-IS_FSUB = bool(os.environ.get("FSUB", False)) # Set "True" For Enable Force Subscribe
-AUTH_CHANNELS = os.environ.get("AUTH_CHANNEL", "-100xxxxxxx") # Add Multiple Channels iD By Space
+IS_FSUB = bool(os.environ.get("FSUB", True)) # Set "True" For Enable Force Subscribe
+AUTH_CHANNELS = os.environ.get("AUTH_CHANNEL", "-1002310978225") # Add Multiple Channels iD By Space
 AUTH_CHANNELS = [int(channel_id) for channel_id in AUTH_CHANNELS.split(",")] # DONT TOUCH
 
 
